@@ -14,8 +14,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent[100],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/space.jpg'),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.lightBlue,
+          size: 50,
         ),
       ),
       floatingActionButton: FloatingActionButton(
