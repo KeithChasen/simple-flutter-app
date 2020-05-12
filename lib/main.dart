@@ -14,12 +14,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent[100],
       ),
       body: Center(
-        child: RaisedButton.icon(
-          onPressed: () {},
-          icon: Icon(
-            Icons.mail
-          ),
-          label: Text('Send'),
+        child: IconButton(
+          onPressed: () {
+            print('Send email');
+          },
+          icon: Icon(Icons.alternate_email),
           color: Colors.amber,
         ),
       ),
